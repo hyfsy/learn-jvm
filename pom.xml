@@ -30,6 +30,11 @@
     <build>
         <finalName>learn-jvm</finalName>
         <plugins>
+            <!--
+                编码规范校验，会生成html在target目录下
+                check: console
+                checkstyle: html
+            -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
@@ -63,6 +68,12 @@
                     </execution>
                 </executions>
             </plugin>
+
+            <!--
+                代码格式化插件
+                apply: 自动格式化整个项目代码
+                validate: 仅校验
+            -->
             <plugin>
                 <groupId>io.spring.javaformat</groupId>
                 <artifactId>spring-javaformat-maven-plugin</artifactId>
@@ -81,4 +92,18 @@
             </plugin>
         </plugins>
     </build>
+
+    <!-- checkstyle报警告 -->
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jxr-plugin</artifactId>
+                <version>2.3</version>
+                <configuration>
+                    <linkXRef>false</linkXRef>
+                </configuration>
+            </plugin>
+        </plugins>
+    </reporting>
 </project>

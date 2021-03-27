@@ -8,9 +8,9 @@ import org.junit.Test;
  */
 public class Hello {
 
-    @Test
-    public void test1() {
-        Object o = new Object();
-    }
+	@Test
+	public void test1() {
+		Object o = new Object();
+	}
 
 }
