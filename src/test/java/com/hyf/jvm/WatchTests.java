@@ -7,7 +7,7 @@ import java.util.List;
  * @author baB_hyf
  * @date 2021/04/09
  */
-public class Watch {
+public class WatchTests {
 
     public static void main(String[] args) {
         List<Integer> memoryList = new ArrayList<>();

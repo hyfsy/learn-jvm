@@ -4,7 +4,7 @@ package com.hyf.jvm.test;
  * @author baB_hyf
  * @date 2021/04/10
  */
-public class T1 {
+public class Syntax_Test_1 {
 
     public static void main(String[] args) {
         System.out.println();

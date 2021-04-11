@@ -1,4 +1,4 @@
-package com.hyf.jvm.cls;
+package com.hyf.jvm.cls.bytecode;
 
 import javax.annotation.processing.SupportedSourceVersion;
 import javax.lang.model.SourceVersion;

@@ -1,4 +1,4 @@
-package com.hyf.jvm.hello;
+package com.hyf.jvm;
 
 import java.lang.instrument.Instrumentation;
 import java.lang.reflect.Array;
@@ -13,7 +13,7 @@ import java.util.Set;
  * 计算对象所占用空间大小（字节）
  *
  * resources/META-INF/MANIFEST.MF
- * Premain-Class: com.hyf.jvm.hello.ObjectSizeFetcher
+ * Premain-Class: com.hyf.jvm.ObjectSizeFetcher
  *
  * @author baB_hyf
  * @date 2021/04/03

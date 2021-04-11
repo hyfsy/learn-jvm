@@ -4,16 +4,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * VM Args： -Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError
- * @author zzm
+ * VM Args: -Xms10m -Xmx10m -XX:+HeapDumpOnOutOfMemoryError
+ *
+ * @author baB_hyf
+ * @date 2021/04/05
  */
 public class HeapOOM {
-    static class OOMObject {
-    }
     public static void main(String[] args) {
         List<OOMObject> list = new ArrayList<OOMObject>();
         while (true) {
             list.add(new OOMObject());
         }
+    }
+
+    static class OOMObject {
     }
 }

@@ -1,4 +1,4 @@
-package com.hyf.jvm.cls;
+package com.hyf.jvm.cls.bytecode;
 
 import org.junit.Test;
 

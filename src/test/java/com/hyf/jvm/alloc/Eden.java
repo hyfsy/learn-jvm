@@ -1,14 +1,14 @@
 package com.hyf.jvm.alloc;
 
 /**
- * 对象优先在Eden分配
+ * 1. 对象优先在Eden分配
  * <p>
  * VM参数: -verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8
  *
  * @author baB_hyf
  * @date 2021/04/08
  */
-public class MinorGC {
+public class Eden {
 
     private static final int _1MB = 1024 * 1024;
 

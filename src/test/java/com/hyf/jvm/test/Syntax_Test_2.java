@@ -4,7 +4,7 @@ package com.hyf.jvm.test;
  * @author baB_hyf
  * @date 2021/04/11
  */
-public class T2 {
+public class Syntax_Test_2 {
 
     static {
         i = 0; // 给变量赋值可以正常编译通过

@@ -1,7 +1,14 @@
-package com.hyf.jvm;/**
- * 
- * 
+package com.hyf.jvm;
+
+/**
+ * 测试JVM参数合法性
+ *
  * @author baB_hyf
  * @date 2021/04/09
- */public class ArgumentTests {
+ */
+public class ArgumentTests {
+
+    public static void main(String[] args) throws InterruptedException {
+        // Thread.sleep(100000);
+    }
 }

@@ -3,18 +3,20 @@ package com.hyf.jvm;
 import org.junit.Test;
 
 /**
+ * String常量池测试
+ *
  * @author baB_hyf
  * @date 2021/04/03
  */
-public class StringTests {
+public class StringConstantTests {
 
     private String s1 = "1"; // 常量池
     private static String s2 = "1"; // 常量池
     private static final String s3 = "1"; // 常量池
 
-    private String s7 = new String("1"); // ?
-    private static String s8 = new String("1"); //?
-    private static final String s9 = new String("1"); // ?
+    private String s7 = new String("1"); // 堆
+    private static String s8 = new String("1"); // 堆
+    private static final String s9 = new String("1"); // 堆
 
     @Test
     public void test1() {
