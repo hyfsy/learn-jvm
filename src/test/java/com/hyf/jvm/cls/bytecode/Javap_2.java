@@ -13,6 +13,10 @@ public class Javap_2 {
 
     }
 
+    public void longValue(long value) {
+        value++;
+    }
+
     private void cannotSee() {
         // javap看不到，jclasslib插件可以看到
     }

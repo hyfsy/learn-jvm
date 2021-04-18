@@ -14,5 +14,23 @@ public class Syntax_Test_2 {
 
     public static void main(String[] args) {
         // ResourceBundle.getBundle("dd");
+        System.out.println(i);
+        A.invoke();
+        B.invoke();
+
+        System.out.println(1024 >> 2 * 3);
+    }
+
+    static class A {
+        public static void invoke() {
+            System.out.println("A");
+        }
+    }
+
+    static class B extends A {
+
+        public static void invoke() { // static 与类型关联
+            System.out.println("B");
+        }
     }
 }
