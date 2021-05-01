@@ -1,4 +1,4 @@
-package com.hyf.jvm;
+package com.hyf.jvm.test;
 
 import org.junit.Test;
 

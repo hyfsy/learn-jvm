@@ -1,4 +1,4 @@
-package com.hyf.jvm.test;
+package com.hyf.jvm.cls.syntax;
 
 /**
  * @author baB_hyf
@@ -23,7 +23,7 @@ public class Syntax_Test_2 {
 
     static class A {
         public static void invoke() {
-            System.out.println("A");
+            System.out.println("Test_A");
         }
     }
 

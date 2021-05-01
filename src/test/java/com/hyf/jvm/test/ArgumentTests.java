@@ -1,4 +1,4 @@
-package com.hyf.jvm;
+package com.hyf.jvm.test;
 
 /**
  * 测试JVM参数合法性

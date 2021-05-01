@@ -1,10 +1,10 @@
-package com.hyf.jvm.test;
+package com.hyf.jvm.cls.syntax;
 
 /**
  * @author baB_hyf
  * @date 2021/04/14
  */
-public class A {
+public class Test_A {
 
     public static void main(String[] args) {
         Integer a = 1;
@@ -19,5 +19,11 @@ public class A {
         System.out.println(c.equals(a + b));
         System.out.println(g == (a + b));
         System.out.println(g.equals(a + b));
+
+        System.setIn(null);
+        System.setOut(null);
+
+        int[][][][][] array = new int[1][0][1][1][1];
+        // int[][][] array2 = new int[1][0][-1];
     }
 }

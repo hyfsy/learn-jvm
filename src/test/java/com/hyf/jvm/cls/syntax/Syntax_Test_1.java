@@ -1,4 +1,4 @@
-package com.hyf.jvm.test;
+package com.hyf.jvm.cls.syntax;
 
 /**
  * @author baB_hyf

@@ -62,6 +62,10 @@ public class Javap_1<T> extends ArrayList<T> implements Serializable {
     public static void noArgs() {
     }
 
+    public void longLocalsStacks_Two(long l) {
+        l = 1;
+    }
+
     public InnerClass_D getD() {
         return new InnerClass_D();
     }
