@@ -10,6 +10,5 @@ public class Hello {
 
     public static void main(String[] args) {
         System.out.println("hello");
-        System.out.println(0b001111111111111111);
     }
 }

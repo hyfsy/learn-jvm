@@ -36,13 +36,13 @@ public class Javap_1<T> extends ArrayList<T> implements Serializable {
 
     @Deprecated
     public static void main(String[] args) {
-        System.out.println("Hello Javap!");
+        System.out.println("_1_ReadClassTests Javap!");
 
         final String s = "constant string";
-        System.out.println("Hello " + s);
+        System.out.println("_1_ReadClassTests " + s);
 
-        String s2 = "Hello constant string";
-        System.out.println(s2 == "Hello " + s);
+        String s2 = "_1_ReadClassTests constant string";
+        System.out.println(s2 == "_1_ReadClassTests " + s);
     }
 
     public int[] index(int[] is, int i, char c, char[] cs, char c2, int i2, int i3, int[] is2) {
