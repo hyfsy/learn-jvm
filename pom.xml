@@ -33,6 +33,7 @@
         </dependency>
 
         <!-- asm为字节码生成技术主要依赖的类库 -->
+        <!-- object-web -->
         <dependency>
             <groupId>org.ow2.asm</groupId>
             <artifactId>asm</artifactId>
@@ -44,6 +45,18 @@
             <groupId>org.javassist</groupId>
             <artifactId>javassist</artifactId>
             <version>3.18.1-GA</version>
+        </dependency>
+
+        <!-- byte-buddy -->
+        <dependency>
+            <groupId>net.bytebuddy</groupId>
+            <artifactId>byte-buddy</artifactId>
+            <version>1.11.6</version>
+        </dependency>
+        <dependency>
+            <groupId>net.bytebuddy</groupId>
+            <artifactId>byte-buddy-agent</artifactId>
+            <version>1.11.6</version>
         </dependency>
 
         <dependency>
